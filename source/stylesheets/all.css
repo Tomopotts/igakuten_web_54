@@ -1,55 +1,39 @@
 ﻿@charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
+  font-family: 'Ludida Grande', 'Hiragino Maru Gothic ProN W4', Meiryo, sans-serif;
+}
+
+.oneliner {
+  margin: 20px 0;
+  padding: 20px 5px;
+  background: rgba(249,255,201,1);
+  background: -moz-linear-gradient(-45deg, rgba(249,255,201,1) 0%, rgba(255,255,43,1) 66%, rgba(255,255,43,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(249,255,201,1)), color-stop(66%, rgba(255,255,43,1)), color-stop(100%, rgba(255,255,43,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(249,255,201,1) 0%, rgba(255,255,43,1) 66%, rgba(255,255,43,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(249,255,201,1) 0%, rgba(255,255,43,1) 66%, rgba(255,255,43,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(249,255,201,1) 0%, rgba(255,255,43,1) 66%, rgba(255,255,43,1) 100%);
+  background: linear-gradient(135deg, rgba(249,255,201,1) 0%, rgba(255,255,43,1) 66%, rgba(255,255,43,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ffc9', endColorstr='#ffff2b', GradientType=1 );
+  border-top, border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 5px 1px #ccc;
   text-align: center;
-  font-family: sans-serif; }
+}
 
-h1 {
-  color: rgba(0, 0, 0, .3);
-  font-weight: bold;
-  font-size: 32px;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
-  margin: 0; }
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-.doc {
-  font-size: 14px;
-  margin: 0; }
-  .doc:before,
-  .doc:after {
-    opacity: .2;
-    padding: 6px;
-    font-style: normal;
-    position: relative;
-    content: "?"; }
-  .doc a {
-    color: rgba(0, 0, 0, 0.3); }
-    .doc a:hover {
-      color: #666; }
+.oneliner h2 {
+  display: inline;
+  line-height: 1.2;
+  font-size: 1.7em;
+  text-shadow: 0 1px 1px #666;
+}
 
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
-
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
+.container img {
+  margin: 10px;
 }

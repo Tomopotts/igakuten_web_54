@@ -18,6 +18,16 @@
   </head>
   
   <body class="<%= page_classes %>">
+    <div id="headerWrapper">
+      <header class="container">
+        <h1>第54回北大医学展「WARA医」</h1>
+      </header>
+    </div>
     <%= yield %>
+    <div id="footerWrapper">
+      <footer class="container">
+        <p>フッター</p>
+      </footer>
+    </div>
   </body>
 </html>
