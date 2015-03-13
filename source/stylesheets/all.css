@@ -4,8 +4,13 @@ body {
   font-family: 'Ludida Grande', 'Hiragino Maru Gothic ProN W4', Meiryo, sans-serif;
 }
 
+#first {
+  width: 100%;
+  display: block;
+}
+
 .oneliner {
-  margin: 20px 0;
+  margin: 0 0 20px;
   padding: 20px 5px;
   background: rgba(249,255,201,1);
   background: -moz-linear-gradient(-45deg, rgba(249,255,201,1) 0%, rgba(255,255,43,1) 66%, rgba(255,255,43,1) 100%);

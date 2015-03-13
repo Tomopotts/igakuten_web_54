@@ -37,7 +37,7 @@
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload, :host => 'Tomo-PC'.chomp
+  activate :livereload, :host => 'pc-PC'.chomp
 end
 
 # Methods defined in the helpers block are available in templates
