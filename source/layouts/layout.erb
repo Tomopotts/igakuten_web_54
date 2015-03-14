@@ -20,7 +20,14 @@
   <body class="<%= page_classes %>">
     <div id="headerWrapper">
       <header class="container">
-        <h1>第54回北大医学展「WARA医」</h1>
+        <ul id="menu">
+          <li><a href="index.html"><img src="images/icon-home.png" alt=""><br>医学展トップ</a></li>
+          <li><a href="introduction"><img src="images/icon-about.png" alt=""><br>医学展とは？</a></li>
+          <li><a href="festival"><img src="images/icon-star.png" alt=""><br>企画一覧</a></li>
+          <li><a href="moreinfo"><img src="images/icon-light.png" alt=""><br>よくある質問</a></li>
+          <li><a href="access"><img src="images/icon-access.png" alt=""><br>会場案内</a></li>
+          <li><a href="contact"><img src="images/icon-contact.png" alt=""><br>お問い合わせ</a></li>
+        </ul>
       </header>
     </div>
     <%= yield %>
