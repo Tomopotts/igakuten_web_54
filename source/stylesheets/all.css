@@ -1,5 +1,9 @@
 ﻿@charset "utf-8";
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   font-family: 'Ludida Grande', 'Hiragino Maru Gothic ProN W4', Meiryo, sans-serif;
 }
