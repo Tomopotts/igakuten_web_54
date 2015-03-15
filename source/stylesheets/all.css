@@ -88,7 +88,7 @@ a {
 }
 
 .oneliner {
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   padding: 20px 5px;
   background: rgba(249,255,201,1);
   background: -moz-linear-gradient(-45deg, rgba(249,255,201,1) 0%, rgba(255,255,43,1) 66%, rgba(255,255,43,1) 100%);
@@ -108,6 +108,10 @@ a {
   line-height: 1.2;
   font-size: 1.7em;
   text-shadow: 0 1px 1px #666;
+}
+
+.stage {
+  padding-top: 10px;
 }
 
 .stage img {
