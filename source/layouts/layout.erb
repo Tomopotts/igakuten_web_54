@@ -17,23 +17,64 @@
   </head>
   
   <body class="<%= page_classes %>">
-    <div id="headerWrapper">
-      <header class="container">
-        <ul id="menu">
-          <li><a href="index.html" id="m1"><img src="images/icon-home.png" alt="">医学展トップ</a></li>
-          <li><a href="introduction.html" id="m2"><img src="images/icon-about.png" alt="">医学展とは？</a></li>
-          <li><a href="festival.html" id="m3"><img src="images/icon-star.png" alt="">企画のすべて</a></li>
-          <li><a href="mascots.html" id="m4"><img src="images/icon-light.png" alt="">マスコット！</a></li>
-          <li><a href="access.html" id="m5"><img src="images/icon-access.png" alt="">会場のご案内</a></li>
-          <li><a href="contact.html" id="m6"><img src="images/icon-contact.png" alt="">お問い合わせ</a></li>
-        </ul>
-      </header>
-    </div>
-    <%= yield %>
-    <div id="footerWrapper">
-      <footer class="container">
-        <p>フッター</p>
-      </footer>
-    </div>
+    <div id="pageWrapper">
+      <div id="headerWrapper">
+        <header class="container">
+          <ul id="menu">
+            <li><a href="index.html" id="m1"><img src="images/icon-home.png" alt="">医学展トップ</a></li>
+            <li><a href="introduction.html" id="m2"><img src="images/icon-about.png" alt="">医学展とは？</a></li>
+            <li><a href="festival.html" id="m3"><img src="images/icon-star.png" alt="">企画のすべて</a></li>
+            <li><a href="mascots.html" id="m4"><img src="images/icon-light.png" alt="">マスコット！</a></li>
+            <li><a href="access.html" id="m5"><img src="images/icon-access.png" alt="">会場のご案内</a></li>
+            <li><a href="contact.html" id="m6"><img src="images/icon-contact.png" alt="">お問い合わせ</a></li>
+          </ul>
+        </header>
+      </div>
+
+<%= yield %>
+
+      <div id="footerWrapper">
+        <footer class="container">
+          <img src="images/last.jpg" alt="">
+          <div class="row">
+            <div class="footerContent">
+              <h3>医学展とは？</h3>
+              <p>北大祭に合わせて医学部医学科の学生が主体となって開催している学祭『医学展』。企画から当日の運営まですべて医学生が行っております！ 医学展を通して、皆様に北大医学部および医療について知って頂ければと願っております。</p>
+            </div>
+            <div class="footerContent">
+              <h3>日程</h3>
+              <dl>
+                <dt>2015年6月6日（土）</dt><dd>10：00～17：30</dd>
+                <dt>2015年6月7日（日）</dt><dd>09：00～16：30</dd>
+              </dl>
+            </div>
+            <div class="footerContent">
+              <h3>会場</h3>
+              <dl>
+                <dt>北海道大学医学部</dt>
+                <dd>（札幌市北区北15条西7丁目）</dd>
+              </dl>
+              <ul>
+                <li>噴水周辺ロータリー</li>
+                <li>医学部学友会館</li>
+                <li>医学部図書館 2～3階</li>
+              </ul>
+            </div>
+            <div class="footerContent">
+              <h3>サイトマップ</h3>
+              <ul>
+                <li><a href="index.html"><img src="images/icon-home.png" alt="">医学展トップ</a></li>
+                <li><a href="introduction.html"><img src="images/icon-about.png" alt="">医学展とは？</a></li>
+                <li><a href="festival.html"><img src="images/icon-star.png" alt="">企画のすべて</a></li>
+                <li><a href="mascots.html"><img src="images/icon-light.png" alt="">マスコット！</a></li>
+                <li><a href="access.html"><img src="images/icon-access.png" alt="">会場のご案内</a></li>
+                <li><a href="contact.html"><img src="images/icon-contact.png" alt="">お問い合わせ</a></li>
+              </ul>
+            </div>
+          </div><!-- .row -->
+          <small id="copyright">Copyright (C) 北海道大学医学展実行委員会 2015 All rights reserved.</small>
+        </footer>
+      </div>
+    </div><!-- #pageWrapper -->
   </body>
 </html>
