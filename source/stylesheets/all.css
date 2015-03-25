@@ -13,6 +13,7 @@ html {
 body {
   height: 100%;
   font-family: 'Ludida Grande', 'Hiragino Maru Gothic ProN W4', Meiryo, sans-serif;
+  background: #f9f9f9;
 }
 
 body > #pageWrapper {
