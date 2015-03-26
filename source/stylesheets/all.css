@@ -28,7 +28,7 @@ a {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  text-align: center; /* 初期画像配置用 */
+  text-align: center;
 }
 
 #headerWrapper {
@@ -119,7 +119,7 @@ a {
 }
 
 .stage img {
-  margin: 10px; /* 初期画像配置用 */
+  margin: 18px;
 }
 
 #footerWrapper {
