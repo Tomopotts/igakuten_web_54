@@ -82,7 +82,7 @@ a {
 }
 
 #first {
-  margin-top: -24px;
+  /*margin-top: -24px;*/
   clear: both;
   width: 100%;
   display: block;
@@ -112,23 +112,56 @@ a {
   text-shadow: 0 1px 1px #666;
 }
 
-.stageA {
+.stage {
   padding-top: 10px;
   padding-bottom: 10px;
   background: url('../images/restaurant_icons.png');
 }
 
-.stageB {
-  padding-top: 10px;
-  padding-bottom: 40px;
-  background: url('../images/wood.png');
-}
-
-.stageA img,
-.stageB img {
+.stage img {
   margin: 15px;
   padding: 2px;
   border: 1px solid #fff;
+}
+
+.campus {
+  display: inline-block;
+  margin: 12px 3px 18px;
+  padding: 24px;
+  border: 1px dotted #f63;
+  border-radius: 50px;
+  background: #fffaf0;
+  overflow: hidden;
+}
+
+.stage table {
+  width: 70%;
+  margin: 12px auto 18px;
+  table-layout: auto;
+  border-collapse: collapse;
+  background: #fffaf0;
+}
+
+.stage td {
+  padding: 18px;
+  border: 1px dotted #f63;
+}
+
+.link {
+  /*display: inline-block;*/
+}
+
+.stage a {
+  display: block;
+  color: #2980b9;
+}
+
+.stage a:hover {
+  color: #e74c3c;
+}
+
+.lastStage {
+  padding-bottom: 40px;
 }
 
 #footerWrapper {
