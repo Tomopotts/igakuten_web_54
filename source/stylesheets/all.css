@@ -17,6 +17,10 @@ a:hover {
   color: #e74c3c;
 }
 
+strong {
+  font-weight: 700;
+}
+
 .container {
   width: 100%;
   max-width: 1400px;
