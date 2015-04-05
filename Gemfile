@@ -14,4 +14,4 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
-gem "therubyracer" unless Gem.win_platform?
+gem 'therubyracer', :platforms => :ruby
