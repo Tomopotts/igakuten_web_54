@@ -408,6 +408,13 @@ footer ul img {
   #menu #m3, #menu #m4, #menu #m5, #menu #m6 {
     margin-top: 0;
   }
+  
+  .stage img {
+    width: 90%;
+    margin: 15px 0;
+    padding: 0;
+    border: none;
+  }
 
   .profile {
     width: 80%;
