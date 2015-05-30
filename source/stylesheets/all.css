@@ -351,7 +351,7 @@ footer img {
 .footerContent ul {
   width: 150px;
   margin: 10px auto;
-  padding-left: 50px;
+  padding-left: 35px;
   list-style: none;
   text-align: left;
   font-size: 14px;
@@ -373,6 +373,11 @@ footer ul img {
   border-radius: 0;
   width: 14px;
   vertical-align: -1.5px;
+}
+
+.link-detail {
+  color: #111;
+  font-size: 12px;
 }
 
 #copyright {
